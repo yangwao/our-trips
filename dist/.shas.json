@@ -1,0 +1,46 @@
+[
+  {
+    "type": "pug@2.0.0-rc.1::map::minify",
+    "inputSha": [
+      {
+        "file": "index.pug",
+        "sha": "8e3a0378b055a5c8c8c81f6257950d3dff5d5d0e"
+      }
+    ],
+    "outputSha": "181535d7fd623d655d08eebba95df6d7e3538aad",
+    "input": "index.pug",
+    "output": [
+      "index.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/main.js",
+        "sha": "e2ecf845feeb136ec2421b9eff8c4f23c5f9cb6b"
+      }
+    ],
+    "outputSha": "ce97e30de42eca6208a04cb5283a0b4ef847a5bd",
+    "input": "scripts/main.js",
+    "output": [
+      "scripts/main.js.map",
+      "scripts/main.js"
+    ]
+  },
+  {
+    "type": "node-sass@4.5.2::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/main.sass",
+        "sha": "a8e479d8a0eb2f676b2bd9805b4009b8829e79a1"
+      }
+    ],
+    "outputSha": "8927ab5318a3fec1eacc65cba72e6a5815fef37a",
+    "input": "styles/main.sass",
+    "output": [
+      "styles/main.css.map",
+      "styles/main.css"
+    ]
+  }
+]
