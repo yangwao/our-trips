@@ -8,10 +8,32 @@ html
 
 		link(rel='stylesheet', href='styles/main.css')
 	body
-		h1 Hello world!!
+		h1 Hello eevvee!
 		p We are ready to go...
-		h1 🏄
-		h1 🏝
-		h1 vue-conf
+		h1#cluj 🚇📭
+		h1#malta 🌴🏝🏖🌊🐬
+		h1#vue vue-conf🏔🚵
+		h1#kitesurfing 🌊(>🏄 (>🏄‍♀️
+	
 
 		script(src='scripts/main.js')
+		script(src='https://unpkg.com/jquery@3.2.1')
+		script(src='https://unpkg.com/moment@2.18.1')
+		script(type='text/javascript').
+			var kitesurfing = moment([2017, 6, 21, 9, 00]).fromNow()
+			var vueconf = moment([2017, 5, 21, 9, 00]).fromNow()
+			var malta = moment([2017, 4, 28, 17, 00]).fromNow()
+			var cluj = moment([2017, 4, 26, 9, 00]).fromNow()
+			console.log('🚇📭', cluj)
+			console.log('🌴🏝🏖🌊🐬', malta)
+			console.log('vue-conf🏔🚵', vueconf)
+			console.log('🌊(>🏄 (>🏄‍♀️', kitesurfing)
+			
+			$('#cluj').append(cluj)
+			$('#malta').append(malta)
+			$('#vue').append(vueconf)
+			$('#kitesurfing').append(kitesurfing)
+			
+			
+		
+		

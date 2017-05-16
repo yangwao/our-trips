@@ -1,5 +1,5 @@
-var helloWorld = function() {
-	console.log('Hello World');
-};
-
-helloWorld();
+// var helloWorld = function() {
+// 	// console.log('Hello World');
+// };
+//
+// helloWorld();

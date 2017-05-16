@@ -4,10 +4,10 @@
     "inputSha": [
       {
         "file": "index.pug",
-        "sha": "8e3a0378b055a5c8c8c81f6257950d3dff5d5d0e"
+        "sha": "5e894ce993d6b25068fdadb6c5f1210d9ab5803f"
       }
     ],
-    "outputSha": "181535d7fd623d655d08eebba95df6d7e3538aad",
+    "outputSha": "cc7fb22dd594a5f232d5ca2fda8c5eada61edfdc",
     "input": "index.pug",
     "output": [
       "index.html"
@@ -18,10 +18,10 @@
     "inputSha": [
       {
         "file": "scripts/main.js",
-        "sha": "e2ecf845feeb136ec2421b9eff8c4f23c5f9cb6b"
+        "sha": "b4d0e3297c077a9ae83dcef4a017fec62155aa96"
       }
     ],
-    "outputSha": "ce97e30de42eca6208a04cb5283a0b4ef847a5bd",
+    "outputSha": "c28677a6e1329b6b3dfe136f8e73646c42682e10",
     "input": "scripts/main.js",
     "output": [
       "scripts/main.js.map",

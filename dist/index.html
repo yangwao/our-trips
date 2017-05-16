@@ -1,1 +1,13 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><title></title><meta name="description" content=""><meta name="viewport" content="width=device-width"><link rel="stylesheet" href="styles/main.css"></head><body><h1>Hello world!!</h1><p>We are ready to go...</p><h1>🏄</h1><h1>🏝</h1><h1>vue-conf</h1><script src="scripts/main.js"></script></body></html>
+<!DOCTYPE html><html><head><meta charset="utf-8"><title></title><meta name="description" content=""><meta name="viewport" content="width=device-width"><link rel="stylesheet" href="styles/main.css"></head><body><h1>Hello eevvee!</h1><p>We are ready to go...</p><h1 id="cluj">🚇📭</h1><h1 id="malta">🌴🏝🏖🌊🐬</h1><h1 id="vue">vue-conf🏔🚵</h1><h1 id="kitesurfing">🌊(>🏄 (>🏄‍♀️</h1><script src="scripts/main.js"></script><script src="https://unpkg.com/jquery@3.2.1"></script><script src="https://unpkg.com/moment@2.18.1"></script><script type="text/javascript">var kitesurfing = moment([2017, 6, 21, 9, 00]).fromNow()
+var vueconf = moment([2017, 5, 21, 9, 00]).fromNow()
+var malta = moment([2017, 4, 28, 17, 00]).fromNow()
+var cluj = moment([2017, 4, 26, 9, 00]).fromNow()
+console.log('🚇📭', cluj)
+console.log('🌴🏝🏖🌊🐬', malta)
+console.log('vue-conf🏔🚵', vueconf)
+console.log('🌊(>🏄 (>🏄‍♀️', kitesurfing)
+
+$('#cluj').append(cluj)
+$('#malta').append(malta)
+$('#vue').append(vueconf)
+$('#kitesurfing').append(kitesurfing)</script></body></html>
